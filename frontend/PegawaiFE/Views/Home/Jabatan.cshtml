@@ -1,0 +1,28 @@
+@model List<PegawaiFE.Models.Jabatan>
+@{
+    ViewBag.Title = "Daftar Jabatan";
+}
+
+<div class="card shadow-lg border-0 mb-4">
+    <div class="card-body">
+        <h2 class="card-title text-success mb-4 border-bottom pb-2">Daftar Jabatan</h2>
+
+        <table class="table table-striped table-bordered align-middle shadow-sm">
+            <thead class="table-secondary">
+                <tr>
+                    <th>ID</th>
+                    <th>Nama Jabatan</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var j in Model)
+                {
+                    <tr>
+                        <td>@j.IdJabatan</td>
+                        <td>@j.NamaJabatan</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

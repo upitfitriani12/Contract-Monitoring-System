@@ -1,1 +1,38 @@
-﻿
+﻿@model IEnumerable<PegawaiFE.Models.PegawaiDTO>
+
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<div class="card shadow-lg border-0 mb-4">
+    <div class="card-body">
+        <h2 class="card-title text-dark mb-4 border-bottom pb-2">Selamat Datang di Contract Monitoring System</h2>
+
+        <table class="table table-bordered table-hover table-striped align-middle shadow-sm">
+            <thead class="table-dark">
+                <tr>
+                    <th>Kode Pegawai</th>
+                    <th>Nama Pegawai</th>
+                    <th>Cabang</th>
+                    <th>Jabatan</th>
+                    <th>Tanggal Mulai</th>
+                    <th>Tanggal Habis</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr>
+                        <td>@p.KodePegawai</td>
+                        <td>@p.NamaPegawai</td>
+                        <td>@p.NamaCabang</td>
+                        <td>@p.NamaJabatan</td>
+                        <td>@p.TanggalMulaiKontrak.ToString("dd/MM/yyyy")</td>
+                        <td>@p.TanggalHabisKontrak.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+ 
