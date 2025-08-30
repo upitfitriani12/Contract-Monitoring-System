@@ -18,5 +18,32 @@
         {
             <div class="alert alert-info mt-3">@ViewBag.Message</div>
         }
+
+        @* Tambahkan preview data Excel *@
+        @if (ViewBag.DataTable != null)
+        {
+            <h4 class="mt-4">Preview Data Excel:</h4>
+            <table class="table table-bordered mt-2">
+                <thead class="table-light">
+                    <tr>
+                        @foreach (System.Data.DataColumn col in ((System.Data.DataTable)ViewBag.DataTable).Columns)
+                        {
+                            <th>@col.ColumnName</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (System.Data.DataRow row in ((System.Data.DataTable)ViewBag.DataTable).Rows)
+                    {
+                        <tr>
+                            @foreach (var item in row.ItemArray)
+                            {
+                                <td>@item</td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
     </div>
 </div>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PegawaiFE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19b47120ad04675b69383c5387a50717f6bb1a97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e49424cc5477fd854fba8b725fc51f7d0d5d67b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PegawaiFE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PegawaiFE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

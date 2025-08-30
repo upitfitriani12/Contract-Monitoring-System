@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using PegawaiFE.Models;
 using System.Net.Http.Json;
+using ClosedXML.Excel;
+using System.Data;
 
 namespace PegawaiFE.Controllers
 {
@@ -39,6 +41,34 @@ namespace PegawaiFE.Controllers
         {
             if (file != null && file.Length > 0)
             {
+                DataTable dt = new DataTable();
+
+                using (var stream = file.OpenReadStream())
+                {
+                    using var workbook = new XLWorkbook(stream);
+                    var worksheet = workbook.Worksheet(1); // Sheet pertama
+                    bool firstRow = true;
+                    foreach (var row in worksheet.RowsUsed())
+                    {
+                        if (firstRow)
+                        {
+                            foreach (var cell in row.Cells())
+                                dt.Columns.Add(cell.Value.ToString());
+                            firstRow = false;
+                        }
+                        else
+                        {
+                            dt.Rows.Add();
+                            int i = 0;
+                            foreach (var cell in row.Cells())
+                                dt.Rows[dt.Rows.Count - 1][i++] = cell.Value.ToString();
+                        }
+                    }
+                }
+
+                ViewBag.DataTable = dt;
+
+                // Kirim ke API
                 using var content = new MultipartFormDataContent();
                 using var fileStream = file.OpenReadStream();
                 content.Add(new StreamContent(fileStream), "file", file.FileName);
@@ -49,6 +79,11 @@ namespace PegawaiFE.Controllers
                 else
                     ViewBag.Message = "Upload gagal!";
             }
+            else
+            {
+                ViewBag.Message = "File belum dipilih!";
+            }
+
             return View();
         }
     }

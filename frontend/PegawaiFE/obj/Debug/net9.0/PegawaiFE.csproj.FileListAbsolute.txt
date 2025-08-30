@@ -383,3 +383,13 @@ C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITH
 C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\obj\Debug\net9.0\ref\PegawaiFE.dll
 C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\obj\Debug\net9.0\compressed\7wpvmd93ts-nzjbmrmne7.gz
 C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\obj\Debug\net9.0\compressed\recslfuk7s-nzjbmrmne7.gz
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\bin\Debug\net9.0\ClosedXML.dll
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\bin\Debug\net9.0\ClosedXML.Parser.dll
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\bin\Debug\net9.0\DocumentFormat.OpenXml.dll
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\bin\Debug\net9.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\bin\Debug\net9.0\ExcelNumberFormat.dll
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\bin\Debug\net9.0\RBush.dll
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\bin\Debug\net9.0\System.IO.Packaging.dll
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\obj\Debug\net9.0\PegawaiFE.csproj.AssemblyReference.cache
+C:\Users\Upit Fitriani\Development\CODING TEST ENIGMA\TEST ADIDATA JAVA NET GITHUB 2\employee-contract-monitoring\frontend\PegawaiFE\obj\Debug\net9.0\PegawaiFE.csproj.Up2Date
