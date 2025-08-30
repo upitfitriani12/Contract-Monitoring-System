@@ -1,0 +1,2 @@
+run fe : http://localhost:5070/
+run be : http://localhost:8080/api/pegawai
