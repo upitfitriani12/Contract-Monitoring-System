@@ -1,4 +1,4 @@
-# 📌 Employment Contract Monitoring System
+# Employment Contract Monitoring System
 
 Aplikasi ini dibuat untuk memenuhi kebutuhan **monitoring kontrak kerja pegawai** di sebuah perusahaan.  
 Sistem ini terdiri dari:
